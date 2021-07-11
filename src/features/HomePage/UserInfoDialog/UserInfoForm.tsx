@@ -82,7 +82,6 @@ const UserInfoForm: React.FC<Props> = ({ onSubmit }) => {
       ];
       onSubmit();
       alert(alertData.join("\n"));
-      console.log("val", values);
     },
     [onSubmit]
   );

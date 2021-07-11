@@ -18,7 +18,6 @@ interface TabPanelProps {
 
 function TabPanel(props: TabPanelProps) {
   const { children, value, index, ...other } = props;
-  console.log("chikld", children, value, index);
   return (
     <Box
       role="tabpanel"
