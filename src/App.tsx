@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
+import AppContent from "./features/AppContent";
 
 function App() {
-  return <div className="App">Hey </div>;
+  return <AppContent />;
 }
 
 export default App;
