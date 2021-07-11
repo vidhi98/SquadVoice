@@ -58,7 +58,6 @@ const socialCheckboxData = [
 
 const useStyles = makeStyles(() => ({
   checkboxRoot: {
-    color: "blue",
     "& + .MuiFormControl-root > div": {
       flexDirection: "row",
     },
